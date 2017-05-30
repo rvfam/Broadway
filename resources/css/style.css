@@ -1,18 +1,18 @@
 
 
-body{
-  text-align:center;
+div{
+  text-align: center;
 }
-
 #header{
   padding-top: 10px;
   font-family:helvetica;
   color:white;
  background-image: url("../images/the-flatiron-building.png");
-/*  background-image:url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");*/
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
+  text-align: center;
+
 
 }
 
@@ -25,9 +25,57 @@ body{
   font-size:70px;
   font-weight:bold;
 }
+#process{
+font-family:helvetica;
+  font-size:32px;
+  font-weight:bold;
+}
+#identify h3,#execute h3, #understand h3{
+  font-family:helvetica;
+  font-size:23px;
+  font-weight:bold;
+}
+#second{
+  padding-top: 1px;
+  padding-bottom:1px;
+  font-family:helvetica;
+  color:white;
+ background-image: url("../images/the-flatiron-building.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  font-size:23px;
+  font-weight:bold;
+
+}
 
 #header a:link{
     color: white;
     background-color: transparent;
     text-decoration: underline;
+}
+.footer{
+      text-align: left;
+      color:white;
+      font-family:helvetica;
+      background-color:dimgray;
+      padding-top: 10px;
+      padding-bottom:10px;
+
+    }
+    .footer a:link{
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+
+.footer nav ul li
+{
+  display:inline;
+
+}
+.footer  #copy{
+  font-size:11px;
+
 }
