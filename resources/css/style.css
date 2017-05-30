@@ -11,9 +11,6 @@ div{
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
-  text-align: center;
-
-
 }
 
 #header ul li{
@@ -35,9 +32,13 @@ font-family:helvetica;
   font-size:23px;
   font-weight:bold;
 }
+#identify p,#execute p, #understand p{
+  font-size:14px;
+}
+
 #second{
-  padding-top: 1px;
-  padding-bottom:1px;
+/*  padding-top: 1px;
+  padding-bottom:1px;*/
   font-family:helvetica;
   color:white;
  background-image: url("../images/the-flatiron-building.png");
@@ -59,10 +60,7 @@ font-family:helvetica;
       color:white;
       font-family:helvetica;
       background-color:dimgray;
-      padding-top: 10px;
-      padding-bottom:10px;
-
-    }
+      }
     .footer a:link{
         color: white;
         background-color: transparent;
@@ -73,9 +71,7 @@ font-family:helvetica;
 .footer nav ul li
 {
   display:inline;
-
 }
 .footer  #copy{
   font-size:11px;
-
 }
